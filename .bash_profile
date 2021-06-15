@@ -38,8 +38,8 @@ function pcp() {
   subl .
 }
 
-function testing(){
-  cd ~/Desktop/nebulab/testing
+function test_app(){
+  cd ~/Desktop/os/test-app
   subl .
 }
 
