@@ -127,6 +127,10 @@ function generate_test_app() {
   bin/rails g solidus:install
 }
 
+function console() {
+  bin/remote-console $1 "bin/rails c"
+}
+
 # Tmux and misc.
 function ev() {
   vi ~/.vimrc
