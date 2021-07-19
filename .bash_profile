@@ -51,6 +51,11 @@ function backup() {
   git checkout $BRANCH
 }
 
+function bugfix() {
+  git branch -D bugfix
+  git checkout -b bugfix
+}
+
 function gri() {
   git rebase master -i
 }
